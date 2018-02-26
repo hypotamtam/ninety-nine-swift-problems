@@ -4,7 +4,7 @@ class List<T> {
     var value: T
     var next: List<T>?
     
-    init(_ value: T, next elements: List<T>?) {
+    init(_ value: T, _ elements: List<T>? = nil) {
         self.value = value;
         next = elements
     }
@@ -17,7 +17,7 @@ class List<T> {
         guard !elements.isEmpty else {
             return nil
         }
-        self.init(elements[0], next: List(Array(elements.suffix(from: 1))))
+        self.init(elements[0], List(Array(elements.suffix(from: 1))))
     }
 }
 
