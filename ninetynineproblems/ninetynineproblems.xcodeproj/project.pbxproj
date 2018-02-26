@@ -17,6 +17,7 @@
 		D4AAA5762043614600DE6614 /* P04.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAA5752043614600DE6614 /* P04.swift */; };
 		D4AAA5782043630400DE6614 /* P05.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAA5772043630400DE6614 /* P05.swift */; };
 		D4AAA57A20437E9B00DE6614 /* P06.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAA57920437E9B00DE6614 /* P06.swift */; };
+		D4C46DC72044AC6C0073EA97 /* P07.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C46DC62044AC6C0073EA97 /* P07.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +45,7 @@
 		D4AAA5752043614600DE6614 /* P04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P04.swift; sourceTree = "<group>"; };
 		D4AAA5772043630400DE6614 /* P05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P05.swift; sourceTree = "<group>"; };
 		D4AAA57920437E9B00DE6614 /* P06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P06.swift; sourceTree = "<group>"; };
+		D4C46DC62044AC6C0073EA97 /* P07.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P07.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				D4AAA5752043614600DE6614 /* P04.swift */,
 				D4AAA5772043630400DE6614 /* P05.swift */,
 				D4AAA57920437E9B00DE6614 /* P06.swift */,
+				D4C46DC62044AC6C0073EA97 /* P07.swift */,
 			);
 			path = ninetynineproblems.test;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				D4AAA57420435FB700DE6614 /* P03.swift in Sources */,
 				D4AAA57220435F4800DE6614 /* P02.swift in Sources */,
 				D4AAA57020435D3B00DE6614 /* P01.swift in Sources */,
+				D4C46DC72044AC6C0073EA97 /* P07.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
