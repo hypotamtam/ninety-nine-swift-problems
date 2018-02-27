@@ -21,6 +21,27 @@ class List<T> {
     }
 }
 
+extension List {
+    
+    func forEachList(_ closure:(_ list: List<T>) -> ()) {
+        var list = self
+        while list.next != nil {
+            closure(list)
+            list = list.next!
+        }
+        closure(list)
+    }
+    
+    func forEach(_ closure:(_ element: T) -> ()) {
+        var list = self
+        while list.next != nil {
+            closure(list.value)
+            list = list.next!
+        }
+        closure(list.value)
+    }
+}
+
 extension List where T: Equatable {
     static func == (lhs: List<T>, rhs: List<T>) -> Bool {
         var leftList = lhs

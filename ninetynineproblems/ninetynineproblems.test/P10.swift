@@ -5,13 +5,11 @@ import XCTest
 //Consecutive duplicates of elements are encoded as tuples (N, E) where N is the number of duplicates of the element E.
 extension List where T: Equatable {
     func encode() -> List<(Int, T)> {
-        var list = self.pack()
         var buffer = [(Int, T)]()
-        while list.next != nil {
-            buffer.append((list.value.length, list.value.value))
-            list = list.next!
+        self.pack().forEach { element in
+            buffer.append((element.length, element.value))
         }
-        buffer.append((list.value.length, list.value.value))
+    
         return List<(Int, T)>(buffer)!
     }
 }

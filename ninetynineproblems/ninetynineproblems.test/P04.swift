@@ -4,11 +4,9 @@ import XCTest
 
 extension List {
     var length: Int {
-        var lenght = 1;
-        var list = self
-        while list.next != nil {
+        var lenght = 0;
+        forEach { _ in
             lenght += 1
-            list = list.next!
         }
         return lenght
     }

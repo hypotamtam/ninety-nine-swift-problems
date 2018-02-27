@@ -5,14 +5,14 @@ import XCTest
 
 extension List where T: Equatable {
     func pack() -> List<List<T>> {
-        var list = self
+//        var list = self
         var curentList = self
         var returnList: List<List<T>>? = nil
         var packedList: List<List<T>>? = nil
         
         var buffer = [T]()
-        while list.next != nil {
-            if (list.value == curentList.value) {
+        self.forEachList { list in
+            if list.value == curentList.value {
                 buffer.append(list.value)
             } else {
                 if returnList == nil {
@@ -26,14 +26,9 @@ extension List where T: Equatable {
                 buffer.removeAll()
                 buffer.append(list.value)
             }
-            list = list.next!
         }
         
-        if (list.value == curentList.value) {
-            buffer.append(list.value)
-        }
-        packedList?.next = List<List<T>>(List(buffer)!)
-        
+        packedList?.next = List<List<T>>(List(buffer)!)        
         return returnList!
         
     }

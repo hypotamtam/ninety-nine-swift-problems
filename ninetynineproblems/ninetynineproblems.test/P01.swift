@@ -3,11 +3,11 @@ import XCTest
 //P01 (*) Find the last element of a linked list.
 extension List {
     var last: T? {
-        var list = self;
-        while list.next != nil {
-            list = list.next!
+        var ret = self.value;
+        self.forEach { element in
+            ret = element
         }
-        return list.value
+        return ret
     }
 }
 

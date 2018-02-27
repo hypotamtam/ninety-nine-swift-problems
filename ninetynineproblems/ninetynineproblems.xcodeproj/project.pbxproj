@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D460B3FD2045FF07005DAA9D /* P10.swift in Sources */ = {isa = PBXBuildFile; fileRef = D460B3FC2045FF07005DAA9D /* P10.swift */; };
+		D460B3FF20460460005DAA9D /* P11.swift in Sources */ = {isa = PBXBuildFile; fileRef = D460B3FE20460460005DAA9D /* P11.swift */; };
 		D4AAA5572043581F00DE6614 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAA5562043581F00DE6614 /* main.swift */; };
 		D4AAA56A204358ED00DE6614 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAA569204358ED00DE6614 /* List.swift */; };
 		D4AAA56C2043592500DE6614 /* ListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAA56B2043592500DE6614 /* ListTest.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		D460B3FC2045FF07005DAA9D /* P10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P10.swift; sourceTree = "<group>"; };
+		D460B3FE20460460005DAA9D /* P11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P11.swift; sourceTree = "<group>"; };
 		D4AAA5532043581F00DE6614 /* ninetynineproblems */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ninetynineproblems; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4AAA5562043581F00DE6614 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D4AAA561204358C200DE6614 /* ninetynineproblems.test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ninetynineproblems.test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +116,7 @@
 				D4C46DC82044B2E40073EA97 /* P08.swift */,
 				D4C46DCA2044B5330073EA97 /* P09.swift */,
 				D460B3FC2045FF07005DAA9D /* P10.swift */,
+				D460B3FE20460460005DAA9D /* P11.swift */,
 			);
 			path = ninetynineproblems.test;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			files = (
 				D4AAA56C2043592500DE6614 /* ListTest.swift in Sources */,
 				D4C46DCB2044B5330073EA97 /* P09.swift in Sources */,
+				D460B3FF20460460005DAA9D /* P11.swift in Sources */,
 				D4AAA56E20435CD700DE6614 /* List.swift in Sources */,
 				D4C46DC92044B2E40073EA97 /* P08.swift in Sources */,
 				D4AAA57A20437E9B00DE6614 /* P06.swift in Sources */,
