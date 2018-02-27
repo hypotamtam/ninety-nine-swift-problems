@@ -7,7 +7,6 @@ extension List where T: Equatable {
     func encodeModified() -> List<Any> {
         var buffer = [Any]()
         self.encode().forEach { element in
-            print(element)
             if (element.0 == 1) {
                 buffer.append(element.1)
             } else {
@@ -26,11 +25,9 @@ class P11Test: XCTestCase {
         
         XCTAssertEqual(expectedList.length, list.length)
         for index in 0..<expectedList.length {
-            let testedValue: Any? = list[index]
-            let exceptedValue = expectedList[index]
-            if let value = testedValue as? (Int, String), let epxectedValue = exceptedValue as? (Int, String) {
+            if let value = list[index] as? (Int, String), let epxectedValue = expectedList[index] as? (Int, String) {
                 XCTAssertTrue(epxectedValue == value)
-            } else if let value = testedValue as? String, let epxectedValue = exceptedValue as? String {
+            } else if let value = list[index] as? String, let epxectedValue = expectedList[index] as? String {
                 XCTAssertEqual(epxectedValue, value)
             } else {
                 XCTFail()
