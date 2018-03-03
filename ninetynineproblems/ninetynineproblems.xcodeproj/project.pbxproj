@@ -16,6 +16,7 @@
 		D460B409204ABAFE005DAA9D /* P16.swift in Sources */ = {isa = PBXBuildFile; fileRef = D460B408204ABAFE005DAA9D /* P16.swift */; };
 		D460B40B204ADA68005DAA9D /* P17.swift in Sources */ = {isa = PBXBuildFile; fileRef = D460B40A204ADA68005DAA9D /* P17.swift */; };
 		D460B40D204AE014005DAA9D /* P18.swift in Sources */ = {isa = PBXBuildFile; fileRef = D460B40C204AE014005DAA9D /* P18.swift */; };
+		D460B40F204AE4AB005DAA9D /* P19.swift in Sources */ = {isa = PBXBuildFile; fileRef = D460B40E204AE4AB005DAA9D /* P19.swift */; };
 		D4AAA5572043581F00DE6614 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAA5562043581F00DE6614 /* main.swift */; };
 		D4AAA56A204358ED00DE6614 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAA569204358ED00DE6614 /* List.swift */; };
 		D4AAA56C2043592500DE6614 /* ListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAA56B2043592500DE6614 /* ListTest.swift */; };
@@ -53,6 +54,7 @@
 		D460B408204ABAFE005DAA9D /* P16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P16.swift; sourceTree = "<group>"; };
 		D460B40A204ADA68005DAA9D /* P17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P17.swift; sourceTree = "<group>"; };
 		D460B40C204AE014005DAA9D /* P18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P18.swift; sourceTree = "<group>"; };
+		D460B40E204AE4AB005DAA9D /* P19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P19.swift; sourceTree = "<group>"; };
 		D4AAA5532043581F00DE6614 /* ninetynineproblems */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ninetynineproblems; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4AAA5562043581F00DE6614 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D4AAA561204358C200DE6614 /* ninetynineproblems.test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ninetynineproblems.test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +140,7 @@
 				D460B408204ABAFE005DAA9D /* P16.swift */,
 				D460B40A204ADA68005DAA9D /* P17.swift */,
 				D460B40C204AE014005DAA9D /* P18.swift */,
+				D460B40E204AE4AB005DAA9D /* P19.swift */,
 			);
 			path = ninetynineproblems.test;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				D460B4032047575D005DAA9D /* P13.swift in Sources */,
 				D460B3FF20460460005DAA9D /* P11.swift in Sources */,
 				D4AAA56E20435CD700DE6614 /* List.swift in Sources */,
+				D460B40F204AE4AB005DAA9D /* P19.swift in Sources */,
 				D4C46DC92044B2E40073EA97 /* P08.swift in Sources */,
 				D460B40120461F24005DAA9D /* P12.swift in Sources */,
 				D4AAA57A20437E9B00DE6614 /* P06.swift in Sources */,

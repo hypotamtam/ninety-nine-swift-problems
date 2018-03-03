@@ -35,9 +35,7 @@ class P18Test: XCTestCase {
         XCTAssertTrue(List("a", "b", "c", "d")! == list)
 
         XCTAssertThrowsError(try List("a", "b", "c", "d")!.slice(-1, 4))
-        XCTAssertThrowsError(try List("a", "b", "c", "d")?.slice(2, 5))
-
-        
+        XCTAssertThrowsError(try List("a", "b", "c", "d")?.slice(2, 5))        
     }
     
 }

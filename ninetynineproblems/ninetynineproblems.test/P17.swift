@@ -7,7 +7,7 @@ enum P17Error: Error {
 }
 
 extension List {
-    func split(at index: Int) throws -> (left: List, right: List) {
+func split(at index: Int) throws -> (left: List, right: List) {
         guard index > 0 && length > index else {
             throw P17Error.IndexOutOfBound
         }
