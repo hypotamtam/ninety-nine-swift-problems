@@ -21,11 +21,11 @@ class P10Test: XCTestCase {
         
         XCTAssertEqual(expectedList.length, list.length)
         for index in 0..<expectedList.length {
-            XCTAssertTrue(expectedList[index]! == list[index]!)
+            XCTAssertTrue(expectedList[index] == list[index])
         }
     }
 }
 
-func == <T:Equatable> (lhs:(T,T), rhs:(T,T)) -> Bool{
-    return (lhs.0 == rhs.0) && (lhs.1 == rhs.1)
+func ==<T:Equatable, U:Equatable> (lhs:(T,U)?, rhs:(T,U)?) -> Bool{
+    return (lhs?.0 == rhs?.0) && (lhs?.1 == rhs?.1)
 }

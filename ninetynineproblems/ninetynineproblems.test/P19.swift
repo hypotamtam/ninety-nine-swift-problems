@@ -20,10 +20,10 @@ extension List {
 class P19Test: XCTestCase {
     func test() {
         var list = List("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k")!.rotate(3)
-        XCTAssertTrue(List("d", "e", "f", "g", "h", "i", "j", "k", "a", "b", "c")! == list)
+        XCTAssertTrue(List("d", "e", "f", "g", "h", "i", "j", "k", "a", "b", "c") == list)
         
         list = List("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k")!.rotate(-2)
-        XCTAssertTrue(List("j", "k", "a", "b", "c", "d", "e", "f", "g", "h", "i")! == list)
+        XCTAssertTrue(List("j", "k", "a", "b", "c", "d", "e", "f", "g", "h", "i") == list)
     }
 }
 

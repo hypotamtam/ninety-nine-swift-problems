@@ -20,7 +20,7 @@ extension List {
 class P16Test: XCTestCase {
     func test() {
         let list = List("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k")!.drop(3)
-        XCTAssertTrue(List("a", "b", "d", "e", "g", "h", "j", "k")! == list)
+        XCTAssertTrue(List("a", "b", "d", "e", "g", "h", "j", "k") == list)
     }
 }
 

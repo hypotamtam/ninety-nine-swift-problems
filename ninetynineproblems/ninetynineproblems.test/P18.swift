@@ -30,12 +30,12 @@ class P18Test: XCTestCase {
     
     func test() {
         var list = try! List("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k")!.slice(3, 7)
-        XCTAssertTrue(List("d", "e", "f", "g")! == list)
+        XCTAssertTrue(List("d", "e", "f", "g") == list)
         list = try! List("a", "b", "c", "d")!.slice(0, 4)
-        XCTAssertTrue(List("a", "b", "c", "d")! == list)
+        XCTAssertTrue(List("a", "b", "c", "d") == list)
 
         XCTAssertThrowsError(try List("a", "b", "c", "d")!.slice(-1, 4))
-        XCTAssertThrowsError(try List("a", "b", "c", "d")?.slice(2, 5))        
+        XCTAssertThrowsError(try List("a", "b", "c", "d")!.slice(2, 5))        
     }
     
 }

@@ -17,7 +17,7 @@ class P14Test: XCTestCase {
     
     func test() {
         let list = List("a", "b", "c", "c", "d")!.duplicate()
-        let expectedList = List("a", "a", "b", "b", "c", "c", "c", "c", "d", "d")!
+        let expectedList = List("a", "a", "b", "b", "c", "c", "c", "c", "d", "d")
         XCTAssertTrue(expectedList == list)
 
     }

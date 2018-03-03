@@ -15,7 +15,8 @@ extension List {
 class P12Test: XCTestCase {
     func test() {
         let list = try! List((4, "a"), (1, "b"), (2, "c"), (2, "a"), (1, "d"), (4, "e"))!.decode()
-        XCTAssertTrue(List("a", "a", "a", "a", "b", "c", "c", "a", "a", "d", "e", "e", "e", "e")! == list)    }
+        XCTAssertTrue(List("a", "a", "a", "a", "b", "c", "c", "a", "a", "d", "e", "e", "e", "e") == list)
+    }
 }
 
 

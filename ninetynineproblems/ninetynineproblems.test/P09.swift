@@ -38,12 +38,12 @@ class P09Test: XCTestCase {
     
     func test() {
         let list = List("a", "a", "a", "a", "b", "c", "c", "a", "a", "d", "e", "e", "e", "e")!.pack()
-        XCTAssertTrue(List("a", "a", "a", "a")! == list[0]!)
-        XCTAssertTrue(List("b")! == list[1]!)
-        XCTAssertTrue(List("c", "c")! == list[2]!)
-        XCTAssertTrue(List("a", "a")! == list[3]!)
-        XCTAssertTrue(List("d")! == list[4]!)
-        XCTAssertTrue(List("e", "e", "e", "e")! == list[5]!)
+        XCTAssertTrue(List("a", "a", "a", "a") == list[0])
+        XCTAssertTrue(List("b") == list[1])
+        XCTAssertTrue(List("c", "c") == list[2])
+        XCTAssertTrue(List("a", "a") == list[3])
+        XCTAssertTrue(List("d") == list[4])
+        XCTAssertTrue(List("e", "e", "e", "e") == list[5])
         XCTAssertNil(list[6])
     }
 }

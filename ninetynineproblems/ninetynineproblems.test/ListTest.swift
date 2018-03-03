@@ -11,9 +11,12 @@ class ListTest: XCTestCase {
         XCTAssertNil(List<Int>())
     }
     
-    func testEquatable() {
+    func testEqualOp() {
         XCTAssertTrue(List(1, 2, 3)! == List(1, 2, 3)!)
         XCTAssertFalse(List(1, 2, 3)! == List(1, 2)!)
+        XCTAssertTrue(List(1, 2, 3) == List(1, 2, 3))
+        XCTAssertFalse(List(1, 2, 3) == List(1, 2))
+
     }
     
 }

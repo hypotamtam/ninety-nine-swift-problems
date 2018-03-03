@@ -35,11 +35,11 @@ class P05Test: XCTestCase {
 
         let list = List(4, 3, 2, 1)!
         list.reverse()
-        XCTAssertTrue(List(1, 2, 3, 4)! == list)
+        XCTAssertTrue(List(1, 2, 3, 4) == list)
       
         let listOddLength = List(5, 4, 3, 2, 1)!
         listOddLength.reverse()
-        XCTAssertTrue(List(1, 2, 3, 4, 5)! == listOddLength)
+        XCTAssertTrue(List(1, 2, 3, 4, 5) == listOddLength)
 
     }
 }

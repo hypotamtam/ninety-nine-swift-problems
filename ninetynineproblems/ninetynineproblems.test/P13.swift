@@ -33,7 +33,7 @@ class P13Test: XCTestCase {
 
         XCTAssertEqual(expectedList.length, list.length)
         for index in 0..<expectedList.length {
-            XCTAssertTrue(expectedList[index]! == list[index]!)
+            XCTAssertTrue(expectedList[index] == list[index])
         }
     }
 }

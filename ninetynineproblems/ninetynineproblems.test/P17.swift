@@ -30,8 +30,8 @@ func split(at index: Int) throws -> (left: List, right: List) {
 class P17Test: XCTestCase {
     func test() {
         let lists = try! List("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k")!.split(at: 3)
-        XCTAssertTrue(List("a", "b", "c")! == lists.left)
-        XCTAssertTrue(List("d", "e", "f", "g", "h", "i", "j", "k")! == lists.right)
+        XCTAssertTrue(List("a", "b", "c") == lists.left)
+        XCTAssertTrue(List("d", "e", "f", "g", "h", "i", "j", "k") == lists.right)
         
         XCTAssertThrowsError(try List("a", "b", "c")?.split(at: 0))
         XCTAssertThrowsError(try List("a", "b", "c")?.split(at: 3))

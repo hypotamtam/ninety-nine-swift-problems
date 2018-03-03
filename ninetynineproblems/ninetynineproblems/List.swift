@@ -56,3 +56,15 @@ extension List where T: Equatable {
         return leftList.value == rightList.value && leftList.next == nil && rightList.next == nil
     }
 }
+
+func ==<T: Equatable> (lhs: List<T>?, rhs: List<T>?) -> Bool {
+    if (lhs === rhs) {
+        return true
+    }
+    
+    guard let lhs = lhs, let rhs = rhs else {
+        return false
+    }
+    return lhs == rhs
+}
+

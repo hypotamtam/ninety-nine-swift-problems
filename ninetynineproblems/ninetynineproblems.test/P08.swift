@@ -27,6 +27,6 @@ class P08Test: XCTestCase {
     func test() {
         let list = List("a", "a", "a", "a", "b", "c", "c", "a", "a", "d", "e", "e", "e", "e")!
         list.compress()
-        XCTAssertTrue(List("a", "b", "c", "a", "d", "e")! == list)
+        XCTAssertTrue(List("a", "b", "c", "a", "d", "e") == list)
     }
 }
