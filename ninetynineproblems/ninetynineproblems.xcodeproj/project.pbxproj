@@ -20,6 +20,7 @@
 		D460B411204AE824005DAA9D /* P20.swift in Sources */ = {isa = PBXBuildFile; fileRef = D460B410204AE824005DAA9D /* P20.swift */; };
 		D460B413204AF68D005DAA9D /* P21.swift in Sources */ = {isa = PBXBuildFile; fileRef = D460B412204AF68D005DAA9D /* P21.swift */; };
 		D460B415204AFAED005DAA9D /* P22.swift in Sources */ = {isa = PBXBuildFile; fileRef = D460B414204AFAED005DAA9D /* P22.swift */; };
+		D4A974EA204B0562002B3430 /* P23.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A974E9204B0562002B3430 /* P23.swift */; };
 		D4AAA5572043581F00DE6614 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAA5562043581F00DE6614 /* main.swift */; };
 		D4AAA56A204358ED00DE6614 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAA569204358ED00DE6614 /* List.swift */; };
 		D4AAA56C2043592500DE6614 /* ListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAA56B2043592500DE6614 /* ListTest.swift */; };
@@ -61,6 +62,7 @@
 		D460B410204AE824005DAA9D /* P20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P20.swift; sourceTree = "<group>"; };
 		D460B412204AF68D005DAA9D /* P21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P21.swift; sourceTree = "<group>"; };
 		D460B414204AFAED005DAA9D /* P22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P22.swift; sourceTree = "<group>"; };
+		D4A974E9204B0562002B3430 /* P23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P23.swift; sourceTree = "<group>"; };
 		D4AAA5532043581F00DE6614 /* ninetynineproblems */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ninetynineproblems; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4AAA5562043581F00DE6614 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D4AAA561204358C200DE6614 /* ninetynineproblems.test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ninetynineproblems.test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +152,7 @@
 				D460B410204AE824005DAA9D /* P20.swift */,
 				D460B412204AF68D005DAA9D /* P21.swift */,
 				D460B414204AFAED005DAA9D /* P22.swift */,
+				D4A974E9204B0562002B3430 /* P23.swift */,
 			);
 			path = ninetynineproblems.test;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				D4AAA57020435D3B00DE6614 /* P01.swift in Sources */,
 				D4C46DC72044AC6C0073EA97 /* P07.swift in Sources */,
 				D460B40D204AE014005DAA9D /* P18.swift in Sources */,
+				D4A974EA204B0562002B3430 /* P23.swift in Sources */,
 				D460B40B204ADA68005DAA9D /* P17.swift in Sources */,
 				D460B409204ABAFE005DAA9D /* P16.swift in Sources */,
 			);
